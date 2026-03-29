@@ -1,0 +1,19 @@
+{
+  "name": "tigriniy/framework",
+  "description": "Custom PHP Framework Core",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Tigriniy"
+    }
+  ],
+  "require": {
+    "php": ">=8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Tigriniy\\Framework\\": "src/"
+    }
+  }
+}
